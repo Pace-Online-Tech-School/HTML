@@ -1,0 +1,166 @@
+.flex_container
+{
+	display: flex;
+	border: 2px solid;
+	padding: 15px;
+	margin: 70px;
+}
+
+.flex_container div
+{
+	padding: 30px;
+	background-color: #A3B4F9;
+	margin: 10px;
+}
+
+.flex_container1
+{
+	display: flex;
+	flex-direction: column; 
+	border: 2px solid;
+}
+
+.flex_container1 div
+{
+	border: 2px solid;
+	padding: 10px;
+	margin: 20px;
+	width: 100px;
+	text-align: center;
+}
+
+.flex_container2
+{
+	display: flex;
+	justify-content: flex-end;
+	border: 2px solid;
+}
+
+.flex_container2 div
+{
+	border: 2px solid;
+	padding: 10px;
+	margin: 20px;
+	width: 100px;
+	text-align: center;
+}
+
+h2
+{
+	text-align: center;
+	background-color: purple;
+	color: white;
+	padding: 20px;
+}
+
+.flex_container_ex
+{
+	display: flex;
+	background-color: pink;
+	flex-direction: row-reverse;
+	justify-content: center;
+}
+
+.flex_container_ex div
+{
+	background-color: #FDF1FF;
+	padding: 10px;
+	margin: 20px;
+	width: 100px;
+	text-align: center;
+}
+
+.flex_container3
+{
+	display: flex;
+}
+
+.flex_container3 div
+{
+	padding: 10px;
+	margin: 30px;
+	color: #ffffff;
+	width: 100px;
+	text-align: center;
+}
+
+.flex_container4
+{
+	display: flex;
+}
+
+.flex_container4 div
+{
+	padding: 30px;
+	margin: 30px;
+	color: #ffffff;
+	background-color: #008080;
+	text-align: center;
+}
+
+.flex_container_ex1
+{
+	display: flex;
+}
+
+.flex_container_ex1 div
+{
+	margin: 30px;
+	padding: 30px;
+	background-color: #2E8B57;
+	color: #ffffff;
+	text-align: center;
+}
+
+.parent
+{
+	font-size: 15px; /*parent element*/
+}
+
+.child
+{
+	font-size: 2em;/* child element*/
+}
+
+.html || :root
+{
+	font-size: 16px; /*html element*/
+}
+
+.parent1
+{
+	font-size: 15px; /*parent element*/
+}
+
+.child1
+{
+	font-size: 2rem;/* child element*/
+}
+
+.px
+{
+	font-size: 20px;
+}
+
+.percentage
+{
+	font-size: 100%; /*100% = 18px*/ 
+}
+
+.container
+{
+	width: 300px;
+	border:1px solid #000000;
+}
+
+.px1
+{
+	width: 50px;
+}	
+
+.percentage1
+{
+	width: 50%;  /*50% = 9px*/ 
+}
+
+
