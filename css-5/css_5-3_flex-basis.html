@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+div { border: 1px solid blue; margin: 10px; padding: 5px; }
+
+.item {width: 100px;}
+.container {
+	display: flex;
+	/*flex-direction: column;*/
+}
+
+#item1 {flex-basis: 80px;}
+#item2 {flex-basis: 120px;}
+#item3 {flex-basis: 200px;}
+#item4 {flex-basis: 80px;}
+#item5 {flex-basis: 200px;}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="item" id="item1">item1 80px</div>
+		<div class="item" id="item2">item2 120px</div>
+		<div class="item" id="item3">item3 200px</div>
+		<div class="item" id="item4">item4 80px</div>
+		<div class="item" id="item5">item5 200px</div>
+	</div>
+</body>
+</html>
