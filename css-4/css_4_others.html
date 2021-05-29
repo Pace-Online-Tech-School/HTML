@@ -1,6 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+
+
+
+
+
+<style>
+div {
+  border: 3px solid #4CAF50;
+  padding: 5px;
+}
+.img1 {
+  float: right;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.img2 {
+  float: right;
+}
+</style>
+</head>
+<body>
+<h1>The Clearfix Hack</h1>
+<p>Here, the floating image is taller than the element containing it, so it overflows outside its container:</p>
+<div>
+<img class="img1" src="float.jpg" alt="Balloon" width="170" height="170">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...</div>
+<p style="clear:right">Add the clearfix hack to the containing element, to fix this problem:</p>
+<div class="clearfix">
+<img class="img2" src="float.jpg" alt="Balloon" width="170" height="170">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...</div>
+</body>
+
+
+
+
+
+
+
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.sampleSec {
+  float: left;
+  width: 400px; height: 50px; margin: 10px; border: 3px solid lightblue;
+}
+
+.clear {
+	width: 200px;
+}
+
+.withoutClear {
+	border: 3px solid green;
+}
+
+.withClear { 
+	border: 3px solid red;
+	clear: left; 
+}
+
+</style>
+</head>
+<body>
+	<h2 class="sampleSec">With clear property</h2>
+	<div class="withoutClear clear">
+		<p>Sample A - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	</div>
+
+	<h2 class="sampleSec">Without clear property</h2>
+  	<div class="withClear clear">
+  		<p>Sample B - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  	</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
 <style>
 .narrow{
   width:300px;
